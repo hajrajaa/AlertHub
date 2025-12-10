@@ -1,0 +1,107 @@
+# ---------------------------
+# Spring Boot / Java Projects
+# ---------------------------
+
+# Maven / Gradle build directories
+target/
+build/
+!**/src/main/**/build/      # Keep build folders inside source if needed
+!**/src/test/**/build/
+
+# Maven wrapper jar (generated locally, not needed in repo)
+.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------
+# IDE / Editor specific files
+# ---------------------------
+
+# IntelliJ IDEA
+.idea/                      # Project settings (workspace, caches, etc.)
+*.iws                        # Workspace file
+*.iml                        # Module files
+*.ipr                        # Project file
+
+# STS (Spring Tool Suite) / Eclipse
+.apt_generated              # Annotation processing generated sources
+.classpath                   # Classpath configuration
+.factorypath                 # Factory path for tooling
+.project                     # Project metadata
+.settings/                   # Eclipse settings directory
+.springBeans                 # Spring Beans configuration
+.sts4-cache/                 # STS cache
+
+# NetBeans
+/nbproject/private/          # Private project files (user-specific)
+/nbbuild/                    # Build folder
+/dist/                       # Distribution folder
+/nbdist/                     # Distribution folder (build artifacts)
+/.nb-gradle/                 # NetBeans Gradle-specific files
+
+# Visual Studio Code
+.vscode/                     # VSCode workspace configuration
+
+# ---------------------------
+# OS / System files
+# ---------------------------
+
+# macOS
+.DS_Store                    # macOS file system metadata
+
+# Windows
+Thumbs.db                    # Windows image cache
+Desktop.ini                  # Windows folder settings
+
+# ---------------------------
+# Logs / Temporary files
+# ---------------------------
+*.log                        # Log files
+*.log.*                      # Log rotation files
+
+# ---------------------------
+# Environment / Secrets
+# ---------------------------
+.env                         # Environment variables (dotenv)
+*.jks                        # Java Key Store
+*.p12                        # PKCS12 certificate
+*.keystore                   # Java Keystore
+
+# ---------------------------
+# Miscellaneous or Documentation files
+# ---------------------------
+HELP.md                      # Optional, but exclude personal instructions
+*.swp                        # Swap files (Vim/Emacs)
+*.swo                        # Vim swap files
+
+# ---------------------------
+# Dependency folders
+# ---------------------------
+# Gradle wrapper
+gradle-wrapper.jar
+# Gradle build output
+.gradle/
+
+# ---------------------------
+# Build artifacts and additional files
+# ---------------------------
+*.war                        # Web application archive
+*.ear                        # Enterprise archive
+*.jar                        # Java archive
+*.class                      # Compiled Java classes (optional, but you may want to exclude these)
+
+# ---------------------------
+# Application specific files
+# ---------------------------
+# Spring Boot specific (temp directories)
+**/target/
+**/build/
+
+# ---------------------------
+# Temporary files and other environment-specific directories
+# ---------------------------
+# IntelliJ's `.idea` folder is used for project settings
+# but doesn't need to be checked into source control.
+.idea/
+
+# Other temporary files from IDEs and editors
+*.bak                        # Backup files
+*.tmp                        # Temporary files
